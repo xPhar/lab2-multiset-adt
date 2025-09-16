@@ -44,7 +44,7 @@ public class ArrayListMultiSet extends MultiSet {
      */
     @Override
     boolean isEmpty() {
-        return false;
+        return this.lst.isEmpty();
     }
 
     /**
