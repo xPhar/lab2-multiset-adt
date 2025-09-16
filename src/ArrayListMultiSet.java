@@ -55,7 +55,14 @@ public class ArrayListMultiSet extends MultiSet {
      */
     @Override
     int count(int item) {
-        return -1;
+        int count = 0;
+        for (int i : this.lst) {
+            if (i == item) {
+                count++;
+            }
+        }
+
+        return count;
     }
 
     /**
