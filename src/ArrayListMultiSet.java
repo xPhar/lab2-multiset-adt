@@ -70,6 +70,6 @@ public class ArrayListMultiSet extends MultiSet {
      */
     @Override
     int size() {
-        return -1;
+        return this.lst.size();
     }
 }
