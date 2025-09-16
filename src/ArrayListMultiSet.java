@@ -36,7 +36,7 @@ public class ArrayListMultiSet extends MultiSet {
      */
     @Override
     boolean contains(int item) {
-        return false;
+        return this.lst.contains(item);
     }
 
     /**
